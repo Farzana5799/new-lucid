@@ -1,0 +1,161 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .header-section .content {
+     text-align: center;
+  }
+  .header-section .navbar-toggler{
+    background-color: white;
+  }
+  .header-section .content  h1 {
+    font-size: 40px;
+}
+.header-section .content  p {
+ padding: 0px 20px;
+}
+.header-section .content  p {
+  padding: 10px 40px 0px;
+}
+.header-section .content  .jora-btn .btn-primary {
+margin-bottom: 19px;
+  margin-left: -5px;
+  padding: 14px 22px;
+}
+.Features-section .box-a .icon i {
+
+  margin: 49px 0px 20px;
+}
+
+.everydevice-section .content .title p {
+ 
+  padding: 12px 27px 20px;
+
+}
+.customize-secton .title {
+  
+  text-align: center;
+}
+.customize-secton .title p {
+
+  margin-left: 9px;
+}
+.customize-secton .img-part img {
+  margin-left: 0px;
+  width: 100%;
+  margin-top: -73px;
+}
+
+.review-section .post-left p {
+  font-size: 20px;
+  padding-right: 38px;
+  margin-left: 51px;
+}
+
+.review-section .post-left .img-part {
+  
+  margin-left: 40px;
+}
+
+.like-section .jora-btn {
+  margin-left: 50px;
+}
+
+.like-section .jora-btn .btn-info {
+  padding: 14px 43px;
+  margin-top: 45px;
+}
+.like-section .jora-btn .btn-primary {
+ 
+  margin-top: 18px;
+}
+.box-section .price-part .p-body {
+}
+
+.box-section .price-part .p-body h1  .d-a {
+left: 115px;
+}
+
+.box-section .price-part .p-body h1 span {
+left: 101px;
+}
+
+.form-section .send .btn-info {
+
+  padding: 11px 14px 6px;
+}
+
+.footer-a-section  .icon {
+padding:  0px;
+margin-top: 30px;
+}
+.footer-a-section {
+ width: 100%;
+  height: 56vh;
+}
+.form-section .form {
+width: 80%;
+
+}
+  }
